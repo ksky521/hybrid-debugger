@@ -1,0 +1,30 @@
+{
+  "name": "hybrid-debugger",
+  "version": "1.0.0",
+  "description": "hybrid app debugger",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hybrid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksky521/hybrid-debugger.git"
+  },
+  "author": "ksky521@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "menubar": "^5.2.3",
+    "semver": "^5.3.0",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "electron": "^1.6.5",
+    "node-bourbon": "^4.2.8"
+  }
+}
